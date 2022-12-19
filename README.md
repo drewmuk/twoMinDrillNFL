@@ -2,7 +2,7 @@
 
 I wanted to look at how (if it all) NFL teams perform differently in two-minute drill situations. In these spots, time is a factor and teams are in need of quick, long plays to score a touchdown or field goal before the clock expires. 
 
-I'm only looking at pass plays; they can stop the clock and gain yards more quickly than runs, so they're more relevant to two-minute drills. This refers to A) two minutes or less left in the 1st half, or B) two minutes or less in the 2nd half when the offensive team is down by 8 points or less. 
+I'm only looking at pass plays; they can stop the clock and gain yards more quickly than runs, so they're more relevant to two-minute drills. This refers to A) two minutes or less left in the 1st half, or B) two minutes or less in the 2nd half when the offensive team is down by 8 points or less. And 'receiver' refers to anyone catching the ball, not just players officially designated as Wide Receivers.
 
 Two ways of investigating the differences are 1) comparing the outcome of two-minute drill plays to normal plays, or 2) seeing if there are patterns in which players are involved. To address the first one, I'm looking at yards gained and yards after catch per completion, and location frequency of pass completions (outside, middle, short, or deep). And for the second, I'm desigining a k-mean analysis of receivers to classify them into groups, and checking the rate at which the groups are targeted in different parts of the game. 
 
@@ -10,7 +10,6 @@ My hypothesis was that pass completions in two-minute drills tend to result in m
 
 The clustering was actually very successful, with the receivers being sorted into categories that match quite well with conventional wisdom about types of receivers. Kupp, Jefferson, Adams, Chase, Diggs, etc. were all in one category, while running backs and some slot WRs were in another, and TEs and big redzone WRs filled out the third one. They each had clear and definable characteristics (lots of chunk plays, high yards after catch stats, etc.) The cluster visualization is shown below; there isn't much overlap, and although it's not perfectly predictive, this model should go a long way towards classifying receivers accurately.
 
-![image](https://user-images.githubusercontent.com/102569479/208359941-ea251103-2443-41cf-86d8-824b239c7163.png)
-
+![image](https://user-images.githubusercontent.com/102569479/208360306-cb921dbe-6efc-4a8b-a062-68eb149efec6.png)
 
 Looking into targets instead of just catches would probably lend some more insight, as well as separating by QB, offensive scheme, etc. But the initial steps of getting the data set up and being able to classify WRs in a way that aligns with the eye test signify a good start. 
