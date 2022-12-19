@@ -10,4 +10,7 @@ My hypothesis was that pass completions in two-minute drills tend to result in m
 
 The clustering was actually very successful, with the receivers being sorted into categories that match quite well with conventional wisdom about types of receivers. Kupp, Jefferson, Adams, Chase, Diggs, etc. were all in one category, while running backs and some slot WRs were in another, and TEs and big redzone WRs filled out the third one. They each had clear and definable characteristics (lots of chunk plays, high yards after catch stats, etc.)
 
+![image](https://user-images.githubusercontent.com/102569479/208359941-ea251103-2443-41cf-86d8-824b239c7163.png)
+
+
 Looking into targets instead of just catches would probably lend some more insight, as well as separating by QB, offensive scheme, etc. But the initial steps of getting the data set up and being able to classify WRs in a way that aligns with the eye test signify a good start. 
